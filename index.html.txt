@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eliminación de Cuenta - CarOnline</title>
+    <style>
+        :root {
+            --primary-color: #1f2937;
+            --text-color: #374151;
+            --bg-color: #f9fafb;
+            --container-bg: #ffffff;
+            --danger-color: #dc2626;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 40px auto;
+            background: var(--container-bg);
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: var(--primary-color);
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 10px;
+        }
+        p { margin-bottom: 1em; }
+        ol { padding-left: 20px; margin-bottom: 20px; }
+        li { margin-bottom: 10px; }
+        .email-box {
+            background-color: #f3f4f6;
+            padding: 15px;
+            border-radius: 6px;
+            border-left: 4px solid var(--primary-color);
+            font-family: monospace;
+            font-size: 1.1rem;
+            margin: 20px 0;
+            word-break: break-all;
+        }
+        .warning {
+            color: var(--danger-color);
+            font-weight: 600;
+            margin-top: 20px;
+        }
+        @media (max-width: 600px) {
+            .container { padding: 20px; margin: 10px auto; }
+            h1 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Solicitud de Eliminación de Cuenta y Datos</h1>
+        <p>En <strong>CarOnline</strong>, respetamos tu privacidad. Si deseas eliminar tu cuenta y todos los datos asociados a ella, por favor sigue estos pasos:</p>
+        
+        <ol>
+            <li>Envía un correo electrónico a la dirección indicada a continuación.</li>
+            <li>En el asunto del correo, escribe: <strong>"Solicitud de eliminación de cuenta - CarOnline"</strong>.</li>
+            <li>En el cuerpo del correo, incluye el <strong>correo electrónico</strong> con el que te registraste en la aplicación y tu <strong>nombre completo</strong> para poder localizarte en nuestra base de datos.</li>
+        </ol>
+
+        <p>Dirección de correo de soporte:</p>
+        <div class="email-box">
+            ramirezkodes@gmail.com
+        </div>
+
+        <h2>¿Qué datos se eliminarán?</h2>
+        <p>Una vez procesada tu solicitud, procederemos a eliminar de forma permanente la siguiente información de nuestros servidores (Supabase):</p>
+        <ul>
+            <li>Datos de perfil (Nombre, correo electrónico, teléfono, cédula, dirección).</li>
+            <li>Historial de actividad, inicios de sesión y registros operativos.</li>
+            <li>Fotografías subidas a la plataforma (evidencias de daños, pagos, etc.).</li>
+            <li>Datos de ubicación almacenados asociados a tu usuario.</li>
+        </ul>
+
+        <p class="warning">Nota: Es posible que conservemos ciertos registros (como comprobantes de pagos o mantenimientos) si la ley local exige su retención por motivos contables o fiscales por un período determinado.</p>
+        
+        <p>El proceso de eliminación puede tardar hasta <strong>7 días hábiles</strong> desde la recepción de tu correo. Te enviaremos una confirmación una vez completado.</p>
+    </div>
+</body>
+</html>
